@@ -10,6 +10,8 @@
       <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
       <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
       <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
       <link href="css/styles.css" rel="stylesheet" />
    </head>
    <body id="page-top">
@@ -17,18 +19,18 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
          <a class="navbar-brand js-scroll-trigger" href="#page-top">
          <span class="d-block d-lg-none">Marcelo Baptista</span>
-         <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="..." /></span>
+         <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
          </a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
          <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav">
                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sobre">Quem sou?</a></li>
-               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experiencia">Experiência</a></li>
+               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#jornada">Minha jornada</a></li>
+               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experiencia">Experiência profissional</a></li>
                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#formacao">Formação acadêmica</a></li>
                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cursos">Cursos e Certificações</a></li>
                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades técnicas</a></li>
                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projetos">Projetos</a></li>
-               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hobbies">Hobbies</a></li>
             </ul>
          </div>
       </nav>
@@ -39,55 +41,56 @@
             <h1 class="mb-0">
                Marcelo Baptista
             </h1>
-            <div class="subheading mb-0">
+            <div class="subheading mb-3">
                Curitiba - PR
             </div>
-            <div class="subheading mb-5">
-               E-mail: marcelobaptista@outlook.com
-            </div>
-            <p class="lead">Sou paixonado por tecnologia, tenho interesse em projetos de código aberto e Software Livre, e possuo mais de 15 anos de experiência em Infraestrutura, no qual construí habilidades em Redes, Administração de servidores Linux/Windows, Shell Script e Automação de Infraestrutura.</p>
-            <p class="lead mb-5">    
-               Com formação em Sistemas para Internet e atualmente cursando pós-graduação em Site Reliability Engineering, concentrei meus esforços em IaC, Cloud, Containerização, Observabilidade, DevOps e SRE, e fui redirecionando minha carreira para a área de SRE com foco em Observabilidade, onde descobri minha verdadeira paixão. 
-            </p>
+            <p class="lead">Sou um Engenheiro de Confiabilidade (SRE) com um pé na Engenharia de Plataformas que gosta de descomplicar o complexo. No meu dia a dia, gosto de contribuir para que os sistemas complexos sejam compreensíveis, resilientes e eficientes por design e de criar pontes entre os times para que Confiabilidade seja uma responsabilidade compartilhada, e não um incêndio a ser apagado.</p>
+            <p class="lead">    
+            Acredito que a melhor infraestrutura é aquela que quase ninguém percebe — porque simplesmente funciona, e que Observabilidade vai além de dados e dashboards, e sim feita para se transformar em entendimento coletivo, democratizada e com o objetivo de tomar decisões acertadas.</p>
+            <p class="lead mb-3">    
+            Como bom entusiasta de código aberto e de Software Livre, adoro participar de comunidades técnicas, compartilhar conhecimento e aprender com outros profissionais, pois acredito que a colaboração é o motor da inovação tecnológica. Atualmente estou como membro do comitê de organização do DevOpsDays Curitiba e da organização do Cloud Native Community Group Curitiba.</p>
+            <p class="lead">Vamos conversar? Me encontre através de qualquer um dos canais abaixo:</p>
             <div class="social-icons">
-               <a class="social-icon" href="https://br.linkedin.com/in/marcelocbaptista"><i class="fab fa-linkedin-in"></i></a>
-               <a class="social-icon" href="https://github.com/marcelobaptista?tab=repositories"><i class="fab fa-github"></i></a>
-               <a class="social-icon" href="https://t.me/marcelobaptista"><i class="fa-brands fa-telegram"></i></a>
-               <a class="social-icon" href="mailto:marcelobaptista@outlook.com?subject=Contato Profissional&&body=Olá Marcelo""><i class="fa fa-envelope"></i></a>
+               <a class="social-icon" href="https://br.linkedin.com/in/marcelocbaptista" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+               <a class="social-icon" href="https://github.com/marcelobaptista?tab=repositories" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+               <a class="social-icon" href="https://t.me/marcelobaptista" title="Telegram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-telegram"></i></a>
+               <a class="social-icon" href="mailto:marcelobaptista@outlook.com?subject=Contato&body=Olá Marcelo"><i class="fa fa-envelope"></i></a>
             </div>
+         </div>
+      </section>
+      <hr class="m-0" />
+      <!-- Minha jornada -->
+      <section class="resume-section" id="jornada">
+         <div class="resume-section-content">
+            <h2 class="mb-3">Minha jornada</h2>
+            <p class="lead">Minha jornada começou na telefonia, suporte e cabeamento estruturado, lidando diretamente com as necessidades dos usuários. Naturalmente migrei para infraestrutura e redes, atuando com automação, monitoramento, servidores e dispositivos de redes, e foi onde solidifiquei minha base técnica. </p>
+            <p class="lead">Após muitos anos, redirecionei minha carreira para Cloud, Containers, IaC, Orquestração e entrei de cabeça na cultura DevOps e SRE, o que me despertou interesse em cursar pós-graduação em Site Reliability Engineer. </p>
+            <p class="lead">Minha paixão por tecnologia e aprendizado contínuo me mantém sempre atualizado com as últimas tendências e melhores práticas do mercado, especialmente no universo de Observabilidade, onde atuo hoje com muita paixão. Cada etapa dessa jornada contribuiu para minha visão única de como a tecnologia deve, acima de tudo, servir às pessoas de forma simples, acessível e confiável.</p>
          </div>
       </section>
       <hr class="m-0" />
       <!-- Experiência-->
       <section class="resume-section" id="experiencia">
          <div class="resume-section-content">
-            <h2 class="mb-5">Experiência</h2>
+            <h2 class="mb-3">Experiência profissional</h2>
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                <div class="flex-grow-1">
-                  <h3 class="mb-0">Senior Site Reliability Engineer</h3>
-                  <div class="subheading mb-3">C6 Bank</div>
-                  <ul class="lead">
-                     <li>Implantação e administração de soluções de observabilidade em ambientes de nuvem, com foco em clusters Kubernetes (EKS e GKE)</li>
-                     <li>Dimensionamento e administração eficiente de recursos em nuvem, aplicando as melhores práticas em FinOps</li>
-                     <li>Automação em infraestrutura utilizando Terraform em provedores Cloud como AWS e GCP seguindo as melhores práticas em GitOps</li>
-                     <li>Gerenciamento de projetos de melhoria contínua da observabilidade do ambiente, em alinhamento com as demandas do time de ItOps e demais times de produtos</li>
-                     <li>Resolução de incidentes relacionados ao ambiente de observabilidade</li>
-                     <li>Gerenciamento, implantação e suporte em diversas plataformas de logs, métricas e APM, incluindo:</li>
-                     <ul class="lead">
-                        <li>Splunk Cloud</li>
-                        <li>AppDynamics</li>
-                        <li>Prometheus</li>
-                        <li>VictoriaMetrics</li>
-                        <li>Cortex</li>
-                        <li>Grafana</li>
-                        <li>Elasticsearch</li>
-                        <li>Graylog</li>
-                        <li>FluentBit</li>
-                        <li>Zabbix</li>
-                     </ul>
-                  </ul>
-               </div>
-               <div class="flex-shrink-0"><span class="text-primary">Agosto 2023 - Atualmente</span></div>
+<h3 class="mb-0">Senior Site Reliability Engineer</h3>
+<div class="subheading mb-3">C6 Bank</div>
+<p class="lead">No C6 Bank, atuo diretamente na construção e operação das plataformas de observabilidade em ambientes críticos 24/7. Minha atuação abrange desde a implementação técnica até a estratégia de observabilidade, sempre focando em confiabilidade, eficiência e inovação.</p>
+
+<ul class="lead">
+      <li>Implementação e administração de soluções de logs, métricas, traces e APM, incluindo <strong>OpenTelemetry</strong>, <strong>Splunk</strong>, <strong>AppDynamics</strong>, <strong>Prometheus</strong>, <strong>VictoriaMetrics</strong>, <strong>Grafana</strong>, <strong>Tempo</strong>, <strong>FluentBit</strong> e <strong>Zabbix</strong>.</li>
+      <li>Implantação, customização e configuração de exporters para <strong>Prometheus</strong> (OracleDB, YACE, Node Exporter, Stackdriver).</li>
+      <li>Automação de funções nas plataformas de observabilidade para reduzir toil, gerar relatórios e melhorar a eficiência operacional.</li>
+      <li>Aplicação de práticas de <strong>FinOps</strong> para otimização de custos e recursos em nuvem (<strong>AWS/GCP</strong>).</li>
+      <li>Participação em projetos de melhoria contínua da observabilidade, alinhados às demandas de ITOps e times de produtos.</li>
+      <li>Resolução proativa de incidentes relacionados ao ambiente de observabilidade, garantindo estabilidade e desempenho.</li>
+      <li>Envolvimento com times multidisciplinares para promover cultura de observabilidade como padrão.</li>
+      <li>Contribuição para a definição de padrões, boas práticas e governança das plataformas de observabilidade.</li>
+</ul>
+</div>
+         <div class="flex-shrink-0"><span class="text-primary">Agosto 2023 - Atualmente</span></div>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                <div class="flex-grow-1">
@@ -139,13 +142,13 @@
       <!-- Formação Acadêmica-->
       <section class="resume-section" id="formacao">
          <div class="resume-section-content">
-            <h2 class="mb-5">Formação Acadêmica</h2>
+            <h2 class="mb-3">Formação Acadêmica</h2>
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                <div class="flex-grow-1">
                   <h3 class="mb-0">Pontifícia Universidade Católica de Minas Gerais</h3>
                   <div class="subheading mb-3">Pós-graduação Lato Sensu - Site Reliability Engineering</div>
                </div>
-               <div class="flex-shrink-0"><span class="text-primary">Abril 2023 - Atualmente</span></div>
+               <div class="flex-shrink-0"><span class="text-primary">Abril 2023 - Maio 2024</span></div>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-between">
                <div class="flex-grow-1">
@@ -160,63 +163,70 @@
       <!-- Cursos e Certificações -->
       <section class="resume-section" id="cursos">
          <div class="resume-section-content">
-         <h2 class="mb-4">Cursos e Certificações</h2>
-         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-               <h3 class="mb-0">Certificações</h3>
-               <div class="subheading mb-3"></div>
-               <ul class="lead">
-                  <li>GitOps Fundamentals Certified - Codefresh</li>
-                  <li>GitLab Certified Associate - Gitlab</li>
-                  <li>Oracle Cloud Infrastructure Certified Architect Associate</li>
-                  <li>Oracle Cloud Infrastructure Foundations Certified Associate</li>
-                  <li>Microsoft Azure Fundamentals</li>
-               </ul>
+            <h2 class="mb-3">Cursos e Certificações</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+               <div class="flex-grow-1">
+                  <h3 class="mb-0">Certificações</h3>
+                  <div class="subheading mb-3"></div>
+                  <ul class="lead">
+                     <li>GitOps Fundamentals Certified - Codefresh</li>
+                     <li>GitLab Certified Associate - Gitlab</li>
+                     <li>Oracle Cloud Infrastructure Certified Architect Associate</li>
+                     <li>Oracle Cloud Infrastructure Foundations Certified Associate</li>
+                     <li>Microsoft Azure Fundamentals</li>
+                  </ul>
+               </div>
             </div>
-         </div>
-         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-               <h3 class="mb-0">Cursos</h3>
-               <div class="subheading mb-3"></div>
-               <ul class="lead">
-                  <li>Intermediate for Istio</li>
-                  <li>Fundamentals for Istio</li>
-                  <li>Splunk Knowledge Manager Learning Path</li>
-                  <li>Splunk Search Expert Learning Path</li>
-                  <li>Splunk Search Beginner Learning Path</li>
-                  <li>Mutirão DevOps - LINUXtips</li>
-                  <li>Uncomplicating Docker - LINUXtips</li>
-                  <li>CCNA R&S: Introduction to Networks - Cisco</li>
-                  <li>Cybersecurity Essentials - Cisco</li>
-               </ul>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+               <div class="flex-grow-1">
+                  <h3 class="mb-0">Cursos</h3>
+                  <div class="subheading mb-3"></div>
+                  <ul class="lead">
+                     <li>Splunk Cloud Administration</li>
+                     <li>Splunk Knowledge Manager Learning Path</li>
+                     <li>Splunk Search Expert Learning Path</li>
+                     <li>Splunk Search Beginner Learning Path</li>
+                     <li>Splunk Knowledge Manager Learning Path</li>
+                     <li>Splunk Search Expert Learning Path</li>
+                     <li>Splunk Search Beginner Learning Path</li>
+                     <li>Intermediate for Istio</li>
+                     <li>Fundamentals for Istio</li>
+                     <li>Fundamentals for Envoy</li>
+                     <li>Mutirão DevOps - LINUXtips</li>
+                     <li>CCNA R&S: Introduction to Networks - Cisco</li>
+                     <li>Cybersecurity Essentials - Cisco</li>
+                  </ul>
+               </div>
             </div>
-         </div>
       </section>
       <hr class="m-0" />
       <!-- Skills-->
       <section class="resume-section" id="skills">
          <div class="resume-section-content">
-            <h2 class="mb-5">Habilidades técnicas</h2>
+            <h2 class="mb-3">Habilidades técnicas</h2>
             <ul class="fa-ul mb-0 lead">
                <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Linux / Shell Script
+                  Linux
                </li>
                <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Platormas de Logs
+                  Shell Script
+               <li>
+                  <span class="fa-li"><i class="fas fa-check"></i></span>
+                  Plataformas de Logs
                </li>
                <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Platormas de Métricas                  
+                  Plataformas de Métricas                  
                </li>
                <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Time Series Database: VictoriaMetrics / Cortex                  
+                  Plataformas de Traces / APM                  
                </li>
                <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Platorma de APM: AppDynamics                  
+                  Time Series Databases                  
                </li>
                <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -231,97 +241,40 @@
                   Clouds públicas: Azure, AWS, GCP, OCI                  
                </li>
             </ul>
-            <p></p>
-            <p></p>
-            <ul class="list-inline dev-icons">
-               <li class="list-inline-item"><i class="fab fa-linux"></i></li>
-               <li class="list-inline-item"><i class="fa-brands fa-microsoft"></i></li>
-               <li class="list-inline-item"><i class="fa-solid fa-server"></i></li>
-               <li class="list-inline-item"><i class="fa fa-terminal"></i></li>
-               <li class="list-inline-item"><i class="fab fa-github"></i></i></li>
-               <li class="list-inline-item"><i class="fab fa-gitlab"></i></li>
-               <li class="list-inline-item"><i class="fab fa-bitbucket"></i></li>
-               <li class="list-inline-item"><i class="fab fa-docker"></i></li>
-               <li class="list-inline-item"><i class="fab fa-aws"></i></li>
-               <li class="list-inline-item"><i class="fa fa-cloud"></i></li>
-            </ul>
+            <div class="mb-3"></div>
          </div>
       </section>
       <hr class="m-0" />
       <!-- Projetos -->
       <section class="resume-section" id="projetos">
          <div class="resume-section-content">
-         <h2 class="mb-5">Projetos realizados</h2>
-         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-               <h3 class="mb-0">Migração Zabbix 3.4 para Zabbix 5.0.7</h3>
-               <div class="subheading mb-3">Caixa / RJ</div>
-               <ul class="lead">
-                  <li>Arquitetura, documentação e implantação do novo ambiente de monitoramento, com cerca de 5000 hosts e todos os sistemas da Caixa/RJ, assim como os scripts de automação de processos e demais necessidades do cliente</li>
-                  <li>Melhorias no monitoramento utilizando funcionalidades não existentes na versão anterior, novos templates customizados e re-adequados ao ambiente.</li>
-               </ul>
+            <h2 class="mb-3">Projetos realizados</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+               <div class="flex-grow-1">
+                  <h3 class="mb-0">Migração Zabbix 3.4 para Zabbix 5.0.7</h3>
+                  <div class="subheading mb-3">Caixa / RJ</div>
+                  <ul class="lead">
+                     <li>Arquitetura, documentação e implantação do novo ambiente de monitoramento, com cerca de 5000 hosts e todos os sistemas da Caixa/RJ, assim como os scripts de automação de processos e demais necessidades do cliente</li>
+                     <li>Melhorias no monitoramento utilizando funcionalidades não existentes na versão anterior, novos templates customizados e re-adequados ao ambiente.</li>
+                  </ul>
+               </div>
+               <div class="flex-shrink-0"><span class="text-primary">2021 - 2022</span></div>
             </div>
-            <div class="flex-shrink-0"><span class="text-primary">2021 - 2022</span></div>
-         </div>
-         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-               <h3 class="mb-0">Distribuição SIVLinux</h3>
-               <div class="subheading mb-3">Infraero / Brasil</div>
-               <ul class="lead">
-                  <li>Remasterização baseada na distribuição Xubuntu Linux versão 18.04, customizada, 1-click install, construída para executar o Sistema Informativo de Voos, desenvolvido pela Infraero, em todos os aeroportos do Brasil pertencentes à rede Infraero</li>
-                  <li>Documentação técnica do projeto, treinamento e acompanhamento de equipes através de cronogramas planejados em reuniões</li>
-                  <li>Custos com licenciamento foram drasticamente reduzidos, e também foi possível utilizar hardwares mais modestos e/ou antigos antes considerados obsoletos</li>
-               </ul>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+               <div class="flex-grow-1">
+                  <h3 class="mb-0">Distribuição SIVLinux</h3>
+                  <div class="subheading mb-3">Infraero / Brasil</div>
+                  <ul class="lead">
+                     <li>Remasterização baseada na distribuição Xubuntu Linux versão 18.04, customizada, 1-click install, construída para executar o Sistema Informativo de Voos, desenvolvido pela Infraero, em todos os aeroportos do Brasil pertencentes à rede Infraero</li>
+                     <li>Documentação técnica do projeto, treinamento e acompanhamento de equipes através de cronogramas planejados em reuniões</li>
+                     <li>Custos com licenciamento foram drasticamente reduzidos, e também foi possível utilizar hardwares mais modestos e/ou antigos antes considerados obsoletos</li>
+                  </ul>
+               </div>
+               <div class="flex-shrink-0"><span class="text-primary">2017 - 2018</span></div>
             </div>
-            <div class="flex-shrink-0"><span class="text-primary">2017 - 2018</span></div>
-         </div>
       </section>
-      <hr class="m-0" />
-      <!-- Hobbies -->
-      <section class="resume-section" id="hobbies">
-         <div class="resume-section-content">
-            <h2 class="mb-5">Hobbies</h2>
-            <ul class="fa-ul mb-5 lead">
-               <li>
-                  <span class="fa-li"><i class="fa-brands fa-forumbee fa-xl"> </i></span>
-                  Meliponicultura (abelhas nativas do Brasil)
-               </li>
-               <li>
-                  <span class="fa-li"><i class="fa-solid fa-seedling"></i></span>
-                  Jardinagem e cultivo de plantas ornamentais
-               </li>
-               <li>
-                  <span class="fa-li"><i class="fa-brands fa-napster"></i></span>
-                  Ouvir músicas      
-               </li>
-               <li>
-                  <span class="fa-li"><i class="fa-solid fa-palette"></i></span>
-                  Fotografia, Artes Plásticas e Artes Visuais                 
-               </li>
-               <li>
-                  <span class="fa-li"><i class="fa-solid fa-film"></i></span>
-                  Assistir filmes e séries com a minha família                             
-               </li>
-               <li>
-                  <span class="fa-li"><i class="fa-solid fa-gamepad"></i></span>
-                  Videogames, em especial os retrô (1972-1999)         
-               </li>
-               <li>
-                  <span class="fa-li"><i class="fa-solid fa-utensils"></i></span>
-                  Cozinhar                  
-               </li>
-               <li>
-                  <span class="fa-li"><i class="fa-solid fa-person-walking"></i></span>
-                  Caminhadas                
-               </li>
-               <li>
-                  <span class="fa-li"><i class="fa-solid fa-mountain-sun"></i></span>
-                  Viajar               
-               </li>
-            </ul>
-         </div>
-      </section>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="js/scripts.js"></script>
    </body>
+   <!-- Scripts -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="js/scripts.js"></script>
 </html>
